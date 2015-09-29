@@ -46,6 +46,8 @@ for argument in args {
 
     if let props = try? url.resourceValuesForKeys([NSURLIsDirectoryKey])
         where props[NSURLIsDirectoryKey] as? Bool == false {
-            flatten(url)
+            autoreleasepool {
+                flatten(url)
+            }
     }
 }
