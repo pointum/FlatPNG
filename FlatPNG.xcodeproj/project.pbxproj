@@ -65,9 +65,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		50C1EE791BBA956F0005B7F0 /* FlatPNG */ = {
+		50C1EE791BBA956F0005B7F0 /* flatpng */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 50C1EE811BBA956F0005B7F0 /* Build configuration list for PBXNativeTarget "FlatPNG" */;
+			buildConfigurationList = 50C1EE811BBA956F0005B7F0 /* Build configuration list for PBXNativeTarget "flatpng" */;
 			buildPhases = (
 				50C1EE761BBA956F0005B7F0 /* Sources */,
 				50C1EE771BBA956F0005B7F0 /* Frameworks */,
@@ -77,7 +77,7 @@
 			);
 			dependencies = (
 			);
-			name = FlatPNG;
+			name = flatpng;
 			productName = FlatPNG;
 			productReference = 50C1EE7A1BBA956F0005B7F0 /* FlatPNG */;
 			productType = "com.apple.product-type.tool";
@@ -108,7 +108,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				50C1EE791BBA956F0005B7F0 /* FlatPNG */,
+				50C1EE791BBA956F0005B7F0 /* flatpng */,
 			);
 		};
 /* End PBXProject section */
@@ -200,6 +200,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 			};
 			name = Release;
 		};
@@ -229,7 +230,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		50C1EE811BBA956F0005B7F0 /* Build configuration list for PBXNativeTarget "FlatPNG" */ = {
+		50C1EE811BBA956F0005B7F0 /* Build configuration list for PBXNativeTarget "flatpng" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				50C1EE821BBA956F0005B7F0 /* Debug */,
